@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PizzaRendelesWPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+	<Grid>
 		<ListBox Margin="14,76,702,292">
 			<ListBoxItem Content="vékony"/>
 			<ListBoxItem Content="normál"/>
@@ -19,6 +19,17 @@
 		</ComboBox>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="7,53,0,0" TextWrapping="Wrap" Text="Pizza vastagsága" VerticalAlignment="Top" Width="99"/>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="114,54,0,0" TextWrapping="Wrap" Text="Pizza mérete" VerticalAlignment="Top" Width="99"/>
+		<StackPanel Margin="233,80,481,232">
+			<CheckBox Content="sonka"/>
+			<CheckBox Content="gomba"/>
+			<CheckBox Content="kukorica"/>
+			<CheckBox Content="ananász"/>
+			<CheckBox Content="szalámi"/>
+			<CheckBox Content="olívabogyó"/>
+			<CheckBox Content="paradicsom"/>
+			<CheckBox Content="tonhal"/>
+		</StackPanel>
+		<TextBox HorizontalAlignment="Left" Height="19" Margin="233,57,0,0" TextWrapping="Wrap" Text="Extra feltét" VerticalAlignment="Top" Width="99"/>
 
 	</Grid>
 </Window>

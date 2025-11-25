@@ -20,5 +20,6 @@ namespace PizzaRendelesWPF
         {
             InitializeComponent();
         }
-    }
+
+	}
 }
