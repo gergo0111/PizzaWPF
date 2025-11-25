@@ -7,19 +7,19 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 	<Grid>
-		<ListBox Margin="14,76,702,292">
+		<ListBox x:Name="CrustListBox" Margin="5,76,692,262">
 			<ListBoxItem Content="vékony"/>
 			<ListBoxItem Content="normál"/>
 			<ListBoxItem Content="extra vastag"/>
 		</ListBox>
-		<ComboBox HorizontalAlignment="Left" Margin="106,79,0,0" VerticalAlignment="Top" Width="120">
+		<ComboBox x:Name="SizeComboBox" HorizontalAlignment="Left" Margin="106,79,0,0" VerticalAlignment="Top" Width="120">
 			<ComboBoxItem Content="kicsi"/>
 			<ComboBoxItem Content="közepes"/>
 			<ComboBoxItem Content="nagy"/>
 		</ComboBox>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="7,53,0,0" TextWrapping="Wrap" Text="Pizza vastagsága" VerticalAlignment="Top" Width="99"/>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="114,54,0,0" TextWrapping="Wrap" Text="Pizza mérete" VerticalAlignment="Top" Width="99"/>
-		<StackPanel Margin="233,80,481,232">
+		<StackPanel x:Name="ToppingsPanel" Margin="233,80,466,210">
 			<CheckBox Content="sonka"/>
 			<CheckBox Content="gomba"/>
 			<CheckBox Content="kukorica"/>
@@ -30,13 +30,11 @@
 			<CheckBox Content="tonhal"/>
 		</StackPanel>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="233,57,0,0" TextWrapping="Wrap" Text="Extra feltét" VerticalAlignment="Top" Width="99"/>
-		<StackPanel Margin="353,87,329,312">
-			<RadioButton Content="Házhozszállítás"/>
-			<RadioButton Content="Személyes átvétel"/>
+		<StackPanel x:Name="DeliveryPanel" Margin="353,87,306,286">
+			<RadioButton GroupName="Delivery" Content="Házhozszállítás"/>
+			<RadioButton GroupName="Delivery" Content="Személyes átvétel"/>
 		</StackPanel>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="357,58,0,0" TextWrapping="Wrap" Text="Átvételi mód" VerticalAlignment="Top" Width="99"/>
-		<Button Content="Rendelés leadása" HorizontalAlignment="Left" Margin="494,89,0,0" VerticalAlignment="Top" Height="99" Width="187"/>
-
-
+		<Button x:Name="OrderButton" Content="Rendelés leadása" HorizontalAlignment="Left" Margin="494,89,0,0" VerticalAlignment="Top" Height="99" Width="187" Click="OrderButton_Click"/>
 	</Grid>
 </Window>
