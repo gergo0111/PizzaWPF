@@ -35,6 +35,7 @@
 			<RadioButton Content="Személyes átvétel"/>
 		</StackPanel>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="357,58,0,0" TextWrapping="Wrap" Text="Átvételi mód" VerticalAlignment="Top" Width="99"/>
+		<Button Content="Rendelés leadása" HorizontalAlignment="Left" Margin="494,89,0,0" VerticalAlignment="Top" Height="99" Width="187"/>
 
 
 	</Grid>
