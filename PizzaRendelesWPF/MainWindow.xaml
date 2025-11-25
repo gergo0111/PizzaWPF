@@ -30,6 +30,12 @@
 			<CheckBox Content="tonhal"/>
 		</StackPanel>
 		<TextBox HorizontalAlignment="Left" Height="19" Margin="233,57,0,0" TextWrapping="Wrap" Text="Extra feltét" VerticalAlignment="Top" Width="99"/>
+		<StackPanel Margin="353,87,329,312">
+			<RadioButton Content="Házhozszállítás"/>
+			<RadioButton Content="Személyes átvétel"/>
+		</StackPanel>
+		<TextBox HorizontalAlignment="Left" Height="19" Margin="357,58,0,0" TextWrapping="Wrap" Text="Átvételi mód" VerticalAlignment="Top" Width="99"/>
+
 
 	</Grid>
 </Window>
