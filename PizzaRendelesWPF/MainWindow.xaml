@@ -12,6 +12,13 @@
 			<ListBoxItem Content="normál"/>
 			<ListBoxItem Content="extra vastag"/>
 		</ListBox>
+		<ComboBox HorizontalAlignment="Left" Margin="106,79,0,0" VerticalAlignment="Top" Width="120">
+			<ComboBoxItem Content="kicsi"/>
+			<ComboBoxItem Content="közepes"/>
+			<ComboBoxItem Content="nagy"/>
+		</ComboBox>
+		<TextBox HorizontalAlignment="Left" Height="19" Margin="7,53,0,0" TextWrapping="Wrap" Text="Pizza vastagsága" VerticalAlignment="Top" Width="99"/>
+		<TextBox HorizontalAlignment="Left" Height="19" Margin="114,54,0,0" TextWrapping="Wrap" Text="Pizza mérete" VerticalAlignment="Top" Width="99"/>
 
 	</Grid>
 </Window>
